@@ -15,16 +15,17 @@ describe("esto debe restar cualquier numero", function(){
     });
 });
 
+describe("esto debe multiplicar cualquier numero", function(){
+      it("multiplicar",function(){
+            let result = Calc.multiplicar(10,100);
+            expect(result).equal(1000);
+      });
+  });
+
 describe("esto debe dividir cualquier numero", function(){
     it("dividir",function(){
-          let result = Calc.dividir(10,100);
-          expect(result).equal(0.1);
+          let result = Calc.dividir(46,10);
+          expect(result).equal(4);
     });
 });
 
-describe("esto debe multiplicar cualquier numero", function(){
-    it("multiplicar",function(){
-          let result = Calc.multiplicar(10,100);
-          expect(result).equal(1000);
-    });
-});
