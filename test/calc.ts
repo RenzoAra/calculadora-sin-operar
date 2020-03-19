@@ -28,4 +28,3 @@ describe("esto debe dividir cualquier numero", function(){
           expect(result).equal(4);
     });
 });
-
