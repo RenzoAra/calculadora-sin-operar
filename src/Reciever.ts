@@ -12,3 +12,4 @@ export class AccionReceptor {
       return this.status;
   }
 }
+export default AccionReceptor;

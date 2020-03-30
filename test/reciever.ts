@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { AccionReceptor } from '../src';
+import { AccionReceptor } from '../src/Reciever';
 
 describe('devolver 2', function() {
       it('devolver 2', function() {

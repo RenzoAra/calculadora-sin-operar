@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { Calc } from '../src';
+import { Calc } from '../src/Calc';
 
 describe("esto debe sumar cualquier numero", function(){
       it("sumar",function(){

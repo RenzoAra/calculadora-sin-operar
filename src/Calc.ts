@@ -52,3 +52,5 @@ export class Calc {
         return (c.length);
     }
 }
+
+export default Calc;
