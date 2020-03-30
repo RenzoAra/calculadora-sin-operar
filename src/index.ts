@@ -1,2 +1,2 @@
 export { Calc } from './Calc';
-export { accionReceptor } from './Reciever';
+export { AccionReceptor } from './Reciever';

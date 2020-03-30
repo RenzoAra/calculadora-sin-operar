@@ -1,11 +1,14 @@
-export class accionReceptor {
-  
+export class AccionReceptor {
   public status = "";
-  
   constructor(){
   }
-    public actionNumero(n : string){
-        status = status.concat(n);
-        return status;
-    }
+  public actionFinNumero(){
+    let aux = this.status;
+    this.status = "";
+    return aux;
+}
+  public actionNumero(n : string){
+      this.status = this.status.concat(n);
+      return this.status;
+  }
 }
