@@ -1,4 +1,4 @@
-import { Context } from "../src/context"
+import { Context } from "../src/Context"
 import { Expresion } from "../src/Expresion";
 
 export class ExpresionNumero extends Expresion{
