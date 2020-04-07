@@ -1,4 +1,4 @@
-import Operacion from "../src/Operacion"
+import {Operacion} from "../src/Operacion"
 import {OperacionResta} from "../src/OperacionResta"
 
 export class OperacionDivision extends Operacion{

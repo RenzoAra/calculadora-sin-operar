@@ -31,11 +31,7 @@ describe("calculadora", function(){
         two.reemplazarCadena();
         let three = new Context("sumar");
 
-        let var1 = new ExpresionNumero().interpreter(one);
-        let var2 = new ExpresionNumero().interpreter(two);
-        let operacion = new ExpresionOperacion().interpreter(three)
-
-        let result = new Calc(var1,var2,operacion)
+        let result = new Calc(new ExpresionNumero().interpreter(one),new ExpresionNumero().interpreter(two),new ExpresionOperacion().interpreter(three))
 
         expect(result.operar()).equal(200);
     });
