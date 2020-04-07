@@ -1,7 +1,5 @@
-import { Expresion } from "../src/Expresion"
-import { expect, assert } from "chai";
+import { expect } from "chai";
 import { Context } from "../src/Context";
-import { ExpresionNumero } from "../src/ExpresionNumero";
 import { ExpresionOperacion } from "../src/ExpresionOperacion";
 import { OperacionSuma } from "../src/OperacionSuma";
 import { OperacionResta } from "../src/OperacionResta";

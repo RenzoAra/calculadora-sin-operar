@@ -1,4 +1,3 @@
-import { Expresion } from "../src/Expresion"
 import { expect, assert } from "chai";
 import { Context } from "../src/Context";
 import { ExpresionNumero } from "../src/ExpresionNumero";
@@ -19,6 +18,15 @@ describe("interpreter", function(){
         var1.reemplazarCadena();
         let var2 = new ExpresionNumero().interpreter(var1);
         expect(var2).equal(44);
+    });
+});
+
+describe("interpreter", function(){
+    it("devolver 0123456789",function(){
+        let var1  = new Context("unodos tres cuatrocincoseissiete ocho nuevecero");
+        var1.reemplazarCadena();
+        let var2 = new ExpresionNumero().interpreter(var1);
+        expect(var2).equal(1234567890);
     });
 });
 
