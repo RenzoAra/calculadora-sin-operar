@@ -1,9 +1,9 @@
-import { Context } from "./context"
-import { Expresion } from "./Expresion";
-import { OperacionSuma } from "./OperacionSuma";
-import { OperacionResta } from "./OperacionResta";
-import { OperacionDivision } from "./OperacionDivision";
-import { OperacionMultiplicar } from "./OperacionMultiplicar";
+import { Context } from "../src/Context"
+import { Expresion } from "../src/Expresion";
+import { OperacionSuma } from "../src/OperacionSuma";
+import { OperacionResta } from "../src/OperacionResta";
+import { OperacionDivision } from "../src/OperacionDivision";
+import { OperacionMultiplicar } from "../src/OperacionMultiplicar";
 
 export class ExpresionOperacion extends Expresion{
 
