@@ -1,4 +1,4 @@
-import Operacion from "./Operacion"
+import Operacion from "../src/Operacion"
 
 export class Calc {
     numero1 = null;

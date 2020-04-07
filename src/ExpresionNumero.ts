@@ -1,5 +1,5 @@
-import { Context } from "./context"
-import { Expresion } from "./Expresion";
+import { Context } from "../src/context"
+import { Expresion } from "../src/Expresion";
 
 export class ExpresionNumero extends Expresion{
 
