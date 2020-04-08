@@ -36,3 +36,21 @@ describe("calculadora", function(){
         expect(result.operar()).equal(200);
     });
 })
+
+describe("calculadora", function(){
+    it("devolver 100000000000000000000000",function(){
+        let one  = new Context("nuevenuevenuevenuevenuevenuevenuevenuevenuevenuevenuevenuevenuevenuevenuevenuevenuevenuevenuevenuevenuevenuevenueve");
+        one.reemplazarCadena();
+        let two = new Context ("uno");
+        two.reemplazarCadena();
+        let three = new Context("sumar");
+
+        let var1 = new ExpresionNumero().interpreter(one);
+        let var2 = new ExpresionNumero().interpreter(two);
+        let operacion = new ExpresionOperacion().interpreter(three);
+
+        let result = new Calc(var1,var2,operacion);
+
+        expect(result.operar()).equal(100000000000000000000000);
+    });
+})

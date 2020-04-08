@@ -39,6 +39,6 @@ describe("operaciones", function(){
       let operacion = new ExpresionOperacion().interpreter(contexto);
       let var1 = new Calc(46,10,operacion)
       let result = var1.operar();
-      expect(result).equal(4);
+      expect(result).equal(4.6);
     });
 });
